@@ -36,7 +36,7 @@ img{
     margin-left: 5rem;
 }
 
-@media only screen and (min-width:400px ) and (max-width: 800px) {
+@media only screen and (min-width:200px ) and (max-width: 800px) {
     .main-container
     {
         max-width: 100% !important;
