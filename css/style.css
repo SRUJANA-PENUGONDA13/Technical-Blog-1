@@ -1,0 +1,37 @@
+body
+{
+    background-color: #E7E9EB;
+    height: 130vh;
+    margin: 0;
+}
+.main-container
+{
+    max-width: 800px;
+    margin: auto;
+    background-color:white; 
+    height: 140vh;
+    padding: 2rem;
+}
+header
+{
+    text-align: center;
+}
+article
+{
+    padding: 0rem 4rem 2rem 4rem;
+}
+h1
+{
+    margin: 0px;
+}
+p
+{
+    font-size: 19px;
+}
+ul
+{
+    list-style-type: disc;
+}
+img{
+    margin-left: 60px;
+}
