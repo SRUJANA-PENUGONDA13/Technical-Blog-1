@@ -1,61 +1,50 @@
-body
-{
-    background-color: #E7E9EB;
-    height: 130vh;
-    margin: 0;
+body {
+  background-color: #e7e9eb;
+  margin: 0;
 }
-.main-container
-{
-    max-width: 800px;
-    margin: auto;
-    background-color:white; 
-    height: 140vh;
-    padding: 2rem;
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
 }
-header
-{
-    text-align: center;
+header {
+  text-align: center;
 }
-article
-{
-    padding: 0rem 4rem 2rem 4rem;
+article {
+  padding: 0rem 4rem 2rem 4rem;
 }
-h1
-{
-    margin: 0px;
+h1 {
+  margin: 0px;
 }
-p
-{
-    font-size: 19px;
+p {
+  font-size: 18px;
 }
-ul
-{
-    list-style-type: disc;
+ul {
+  list-style-type: disc;
 }
-img{
-    margin-left: 5rem;
+img {
+  margin-left: 5rem;
 }
-
-@media only screen and (min-width:200px ) and (max-width: 800px) {
-    body
-    {
-        height: 100% !important;
-    }
-    .main-container
-    {
-        max-width: 100% !important;
-        margin: auto !important;
-        background-color:white; 
-        padding: 15px !important;
-        height: 100% !important;
-    }
-    img{
-        max-width: 80vw;
-        margin-left: 20px !important;
-    }
-    article
-    {
-         padding: 5px !important;
-    }
+.code {
+  margin-left: 0rem;
 }
-    
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+  body {
+    height: 100% !important;
+  }
+  .main-container {
+    max-width: 100% !important;
+    margin: auto !important;
+    background-color: white;
+    padding: 15px !important;
+    height: 100% !important;
+  }
+  img {
+    max-width: 80vw;
+    margin-left: 20px !important;
+  }
+  article {
+    padding: 5px !important;
+  }
+}
